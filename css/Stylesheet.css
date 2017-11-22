@@ -1,0 +1,468 @@
+body, html {
+    padding: 0;
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*@-ms-viewport{*/
+    /*width: device-width;*/
+/*}*/
+
+.beginScreen {
+    min-width: 100%;
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-color: rgb(232,63,52);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.omtekst {
+    align-items: center;
+}
+
+/*a {
+    text-decoration: none;
+    color: white;
+}*/
+
+.beginScreen h1 {
+    font-weight:100;
+    font-size:8vh;
+    margin:0 10px;
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    animation-duration: 2.5s
+
+  }
+
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+        transition: ease-in-out;
+    }
+    100% {
+        opacity:1;
+        transition: ease-in-out;
+    }
+}
+
+.bold{
+    font-weight:900;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    section h1 {
+        font-size:15vh;
+    }
+}
+
+.pop {
+    min-width: 50%;
+    min-height:50%;
+    width: 50%;
+    height:50%;
+}
+
+.omjobs {
+    display: flex;
+    flex-direction:column;
+}
+
+
+.wrapper1 {
+    min-width: 100%;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/opening.jpg");
+    background-position: 50% 75%;
+    background-size: 60vh 100vh;
+
+}
+
+.ompoptext {
+    margin-bottom: -50%;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 100%;
+    /*margin: 0 auto;*/
+}
+
+.pop {
+    min-width: 50%;
+    display: flex;
+    flex-direction:column;
+    /*min-width: 75%;*/
+}
+
+.pop8 {
+    min-width: 15%;
+    display: flex;
+    flex-direction:column;
+}
+
+.filler {
+    height:100px;
+}
+
+.pop img {
+    width: 100%;
+}
+
+.omtext {
+    width: 70%;
+}
+
+.omheen {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#text1 {
+    width: 100%;
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    color: black;
+    font-weight: 200;
+}
+
+.wrapper2 {
+    min-width: 100%;
+    margin: 0 auto;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/opening.jpg");
+    background-position: 100% 75%;
+    background-size: 60vh 100vh;
+}
+
+#text2 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 1.5vh;
+    color: black;
+    font-weight: 200;
+}
+
+.filler2 {
+    height:200px;
+}
+
+
+
+.wrapper3 {
+    min-width: 100%;
+    margin: 0 auto;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/omwzonpaneel.jpg");
+    background-position: 100% 90%;
+    background-size: 60vh 100vh;
+}
+
+#text3 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 1.5vh;
+    color: black;
+    font-weight: 200;
+}
+
+.filler2 {
+    height:200px;
+}
+
+
+.wrapper4 {
+    min-width: 100%;
+    margin: 0 auto;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/dronewinkel.jpg");
+    background-position: 50% 50%;
+    background-size: 60vh 100vh;
+}
+
+#text4 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 1.5vh;
+    color: black;
+    font-weight: 200;
+}
+
+.wrapper5 {
+    min-width: 100%;
+    margin: 0 auto;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/omwzonpaneel.jpg");
+    background-position: 100% 75%;
+    background-size: 60vh 100vh;
+}
+
+#text5 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 2vh;
+    color: black;
+    font-weight: 200;
+}
+
+.wrapper6 {
+    min-width: 100%;
+    margin: 0 auto;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/zonpaneel.jpg");
+    background-position: 100% 75%;
+    background-size: 60vh 100vh;
+}
+
+#text6 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 2vh;
+    color: black;
+    font-weight: 200;
+}
+
+#text7 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 2vh;
+    color: black;
+    font-weight: 200;
+}
+
+.wrapper8 {
+    min-width: 100%;
+    margin: 0 auto;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/lab.jpg");
+    background-position: 100% 75%;
+    background-size: 60vh 100vh;
+}
+
+#text8 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 2vh;
+    color: black;
+    font-weight: 200;
+}
+
+
+.wrapper9 {
+    min-width: 100%;
+    margin: 0 auto;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background: url("../img/AchtergrondenJobsOfTheFuture/eindplaatje.jpg");
+    background-position: 50% 50%;
+    background-size: 60vh 100vh;
+}
+
+#text9 {
+    /*width: 200px;*/
+    /*height: 120px;*/
+    padding: 10px;
+    border: 1px solid #E6E7EC;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    background-color: #E6E7EC;
+    /*position: relative;*/
+    bottom: 330px;
+    left: 180px;
+    font-size: 1.5vh;
+    color: black;
+    font-weight: 200;
+}
+
+.element-to-hide{
+    visibility:hidden;
+}
+
+
+.slideLeft {
+     visibility: visible;
+     animation: slideLeft 1s forwards;
+ }
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-1200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes slideLeft {
+    0% {
+        transform: translateX(-1200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.slideRight {
+    visibility: visible;
+    animation: slideRight 1s forwards;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(1200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes slideRight {
+    0% {
+        transform: translateX(1200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
